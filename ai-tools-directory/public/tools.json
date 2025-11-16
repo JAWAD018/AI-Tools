@@ -1,0 +1,592 @@
+[
+  {
+    "id": 1,
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "pricing": "Freemium",
+    "description": "ChatGPT is one of the most advanced conversational AI assistants capable of generating human-like text, answering questions, brainstorming, coding, summarizing content, and supporting learning across many subjects. It is widely used by students, professionals, marketers, and developers.",
+    "link": "https://chat.openai.com",
+    "tags": ["chatbot", "assistant", "writing", "coding"],
+    "logo": "https://via.placeholder.com/128?text=ChatGPT",
+    "category": "General"
+  },
+  {
+    "id": 2,
+    "slug": "google-gemini",
+    "name": "Google Gemini",
+    "pricing": "Freemium",
+    "description": "Google Gemini is a powerful multimodal AI model from Google capable of handling text, images, audio, and video. It helps users with writing, research, image understanding, translation, and creative ideation, making it one of the most robust AI platforms.",
+    "link": "https://gemini.google.com",
+    "tags": ["google", "ai", "assistant", "chat"],
+    "logo": "https://via.placeholder.com/128?text=Gemini",
+    "category": "General"
+  },
+  {
+    "id": 3,
+    "slug": "claude-ai",
+    "name": "Claude AI",
+    "pricing": "Freemium",
+    "description": "Claude AI by Anthropic is designed for safe, accurate, and sophisticated reasoning. It is popular among professionals for long-form writing, complex analysis, and business-grade productivity tasks.",
+    "link": "https://claude.ai",
+    "tags": ["assistant", "logic", "writing"],
+    "logo": "https://via.placeholder.com/128?text=Claude",
+    "category": "General"
+  },
+  {
+    "id": 4,
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "pricing": "Paid",
+    "description": "Midjourney is a premium AI image generator known for producing photorealistic and artistic visuals. Designers and brands use it to generate creative concepts, prototypes, and marketing visuals.",
+    "link": "https://midjourney.com",
+    "tags": ["image-generation", "art", "creative"],
+    "logo": "https://via.placeholder.com/128?text=MJ",
+    "category": "Image"
+  },
+  {
+    "id": 5,
+    "slug": "leonardo-ai",
+    "name": "Leonardo AI",
+    "pricing": "Freemium",
+    "description": "Leonardo AI offers high-quality image generation, character creation, textures, 3D assets, and creative design tools. It is widely used in gaming, marketing, and creative production.",
+    "link": "https://leonardo.ai",
+    "tags": ["image", "design", "creative"],
+    "logo": "https://via.placeholder.com/128?text=Leonardo",
+    "category": "Image"
+  },
+  {
+    "id": 6,
+    "slug": "runway-ml",
+    "name": "Runway ML",
+    "pricing": "Freemium",
+    "description": "Runway ML provides next-generation video tools such as text-to-video generation, video editing, and AI motion brushes. It is widely adopted in film, advertising, and creative storytelling.",
+    "link": "https://runwayml.com",
+    "tags": ["video", "generative", "editing"],
+    "logo": "https://via.placeholder.com/128?text=Runway",
+    "category": "Video"
+  },
+  {
+    "id": 7,
+    "slug": "pika-labs",
+    "name": "Pika Labs",
+    "pricing": "Freemium",
+    "description": "Pika Labs is an AI video generation platform that turns text prompts into cinematic scenes, animations, and edits. It is popular among content creators and video storytellers.",
+    "link": "https://pika.art",
+    "tags": ["video", "animation", "creative"],
+    "logo": "https://via.placeholder.com/128?text=Pika",
+    "category": "Video"
+  },
+  {
+    "id": 8,
+    "slug": "canva-ai",
+    "name": "Canva AI",
+    "pricing": "Freemium",
+    "description": "Canva AI includes Magic Write, Magic Edit, and text-to-image tools that simplify graphic design. Users can create social media graphics, resumes, posters, and branding materials effortlessly.",
+    "link": "https://canva.com",
+    "tags": ["design", "image", "editing"],
+    "logo": "https://via.placeholder.com/128?text=Canva",
+    "category": "Design"
+  },
+  {
+    "id": 9,
+    "slug": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "pricing": "Free with Adobe Account",
+    "description": "Adobe Firefly is a professional AI suite offering text-to-image generation, generative fill, vector recoloring, pattern creation, and high-quality photo editing tools.",
+    "link": "https://www.adobe.com/products/firefly.html",
+    "tags": ["image", "editing", "creative"],
+    "logo": "https://via.placeholder.com/128?text=Firefly",
+    "category": "Image"
+  },
+  {
+    "id": 10,
+    "slug": "deepai",
+    "name": "DeepAI",
+    "pricing": "Free",
+    "description": "DeepAI provides free AI tools for generating images, colorizing photos, enhancing details, and creating artistic transformations. It is widely used by beginners.",
+    "link": "https://deepai.org",
+    "tags": ["image", "free", "editing"],
+    "logo": "https://via.placeholder.com/128?text=DeepAI",
+    "category": "Image"
+  },
+
+  {
+    "id": 11,
+    "slug": "remove-bg",
+    "name": "Remove.bg",
+    "pricing": "Freemium",
+    "description": "Remove.bg uses AI to remove backgrounds from images instantly. It is widely used for ecommerce, social media images, ID photos, and product listings.",
+    "link": "https://remove.bg",
+    "tags": ["bg-removal", "image", "editing"],
+    "logo": "https://via.placeholder.com/128?text=RemoveBG",
+    "category": "Image"
+  },
+
+  {
+    "id": 12,
+    "slug": "cleanup-pictures",
+    "name": "Cleanup Pictures",
+    "pricing": "Freemium",
+    "description": "Cleanup Pictures helps remove unwanted objects, text, people, or watermarks from photos using AI in seconds. Ideal for designers and photographers.",
+    "link": "https://cleanup.pictures",
+    "tags": ["image", "cleanup", "editing"],
+    "logo": "https://via.placeholder.com/128?text=Cleanup",
+    "category": "Image"
+  },
+
+  {
+    "id": 13,
+    "slug": "krisp-ai",
+    "name": "Krisp AI",
+    "pricing": "Freemium",
+    "description": "Krisp AI offers real-time noise cancellation for meetings, online classes, and voice recordings. It removes background sounds and enhances clarity.",
+    "link": "https://krisp.ai",
+    "tags": ["audio", "noise", "meetings"],
+    "logo": "https://via.placeholder.com/128?text=Krisp",
+    "category": "Audio"
+  },
+
+  {
+    "id": 14,
+    "slug": "tome-ai",
+    "name": "Tome AI",
+    "pricing": "Freemium",
+    "description": "Tome AI creates beautiful slide presentations using AI. It transforms ideas into full presentations with text, images, and design layouts.",
+    "link": "https://tome.app",
+    "tags": ["slides", "presentation", "business"],
+    "logo": "https://via.placeholder.com/128?text=Tome",
+    "category": "Business"
+  },
+
+  {
+    "id": 15,
+    "slug": "copy-ai",
+    "name": "Copy.ai",
+    "pricing": "Freemium",
+    "description": "Copy.ai generates marketing copy, advertisements, emails, social media captions, blog ideas, and business messages using natural language generation.",
+    "link": "https://copy.ai",
+    "tags": ["writing", "marketing"],
+    "logo": "https://via.placeholder.com/128?text=CopyAI",
+    "category": "Writing"
+  },
+
+  {
+    "id": 16,
+    "slug": "jasper-ai",
+    "name": "Jasper AI",
+    "pricing": "Paid",
+    "description": "Jasper AI is a premium writing assistant designed for marketers, agencies, and businesses. It specializes in producing long-form blog posts and branded content.",
+    "link": "https://jasper.ai",
+    "tags": ["writing", "marketing"],
+    "logo": "https://via.placeholder.com/128?text=Jasper",
+    "category": "Writing"
+  },
+
+  {
+    "id": 17,
+    "slug": "grammarly",
+    "name": "Grammarly",
+    "pricing": "Freemium",
+    "description": "Grammarly helps improve grammar, spelling, clarity, tone, and writing structure. It also provides AI rewriting suggestions and content enhancements.",
+    "link": "https://grammarly.com",
+    "tags": ["writing", "grammar", "editing"],
+    "logo": "https://via.placeholder.com/128?text=Grammarly",
+    "category": "Writing"
+  },
+
+  {
+    "id": 18,
+    "slug": "quillbot",
+    "name": "QuillBot",
+    "pricing": "Freemium",
+    "description": "QuillBot is an AI paraphrasing and rewriting tool used by students, writers, and professionals to enhance clarity, avoid plagiarism, and generate better content.",
+    "link": "https://quillbot.com",
+    "tags": ["writing", "paraphrasing", "free"],
+    "logo": "https://via.placeholder.com/128?text=Quillbot",
+    "category": "Writing"
+  },
+
+  {
+    "id": 19,
+    "slug": "otter-ai",
+    "name": "Otter AI",
+    "pricing": "Freemium",
+    "description": "Otter AI provides real-time meeting transcriptions, speaker identification, and automatic summaries. Ideal for teams and students.",
+    "link": "https://otter.ai",
+    "tags": ["transcription", "meetings", "audio"],
+    "logo": "https://via.placeholder.com/128?text=Otter",
+    "category": "Audio"
+  },
+
+  {
+    "id": 20,
+    "slug": "pexels-ai",
+    "name": "Pexels AI",
+    "pricing": "Free",
+    "description": "Pexels AI allows users to create and enhance images using AI while offering millions of free stock photos and videos for creative projects.",
+    "link": "https://pexels.com",
+    "tags": ["image", "free", "editing"],
+    "logo": "https://via.placeholder.com/128?text=Pexels",
+    "category": "Image"
+  },
+
+  {
+    "id": 21,
+    "slug": "character-ai",
+    "name": "Character AI",
+    "pricing": "Freemium",
+    "description": "Character AI lets users chat with fictional or custom-built characters powered by AI personalities. It's popular for fun conversations and creative storytelling.",
+    "link": "https://beta.character.ai",
+    "tags": ["chat", "entertainment"],
+    "logo": "https://via.placeholder.com/128?text=CharacterAI",
+    "category": "Chat"
+  },
+
+  {
+    "id": 22,
+    "slug": "murf-ai",
+    "name": "Murf AI",
+    "pricing": "Freemium",
+    "description": "Murf AI lets users generate realistic voiceovers for videos, ads, podcasts, and presentations with natural-sounding AI voices.",
+    "link": "https://murf.ai",
+    "tags": ["tts", "voice", "audio"],
+    "logo": "https://via.placeholder.com/128?text=Murf",
+    "category": "Audio"
+  },
+
+  {
+    "id": 23,
+    "slug": "heygen",
+    "name": "HeyGen",
+    "pricing": "Freemium",
+    "description": "HeyGen lets users create AI-generated face-swap videos, avatars, translations, and professional video content for marketing or presentations.",
+    "link": "https://heygen.com",
+    "tags": ["video", "avatar", "translation"],
+    "logo": "https://via.placeholder.com/128?text=HeyGen",
+    "category": "Video"
+  },
+
+  {
+    "id": 24,
+    "slug": "udacity-ai",
+    "name": "Udacity AI Courses",
+    "pricing": "Freemium",
+    "description": "Udacity offers free and premium AI courses including machine learning, data science, and deep learning with industry-level projects.",
+    "link": "https://www.udacity.com",
+    "tags": ["education", "courses", "ai"],
+    "logo": "https://via.placeholder.com/128?text=Udacity",
+    "category": "Education"
+  },
+
+  {
+    "id": 25,
+    "slug": "coursera-ai",
+    "name": "Coursera AI Courses",
+    "pricing": "Freemium",
+    "description": "Coursera offers AI learning programs from top universities like Stanford and Google, covering prompt engineering, machine learning, data science, and automation.",
+    "link": "https://coursera.org",
+    "tags": ["ai", "courses"],
+    "logo": "https://via.placeholder.com/128?text=Coursera",
+    "category": "Education"
+  },
+
+  {
+    "id": 26,
+    "slug": "microsoft-copilot",
+    "name": "Microsoft Copilot",
+    "pricing": "Freemium",
+    "description": "Microsoft Copilot is an AI assistant integrated into Windows, Office apps, and Bing. It helps with writing, coding, and productivity tasks.",
+    "link": "https://copilot.microsoft.com",
+    "tags": ["assistant", "productivity"],
+    "logo": "https://via.placeholder.com/128?text=Copilot",
+    "category": "General"
+  },
+
+  {
+    "id": 27,
+    "slug": "notion-ai",
+    "name": "Notion AI",
+    "pricing": "Paid",
+    "description": "Notion AI enhances workspace productivity with summary generation, writing help, brainstorming, and converting messy notes into structured documents.",
+    "link": "https://www.notion.so/product/ai",
+    "tags": ["productivity", "writing"],
+    "logo": "https://via.placeholder.com/128?text=NotionAI",
+    "category": "Productivity"
+  },
+
+  {
+    "id": 28,
+    "slug": "scribe-ai",
+    "name": "Scribe AI",
+    "pricing": "Freemium",
+    "description": "Scribe automatically generates step-by-step guides by observing user actions, making documentation effortless for teams.",
+    "link": "https://scribehow.com",
+    "tags": ["documentation", "automation"],
+    "logo": "https://via.placeholder.com/128?text=Scribe",
+    "category": "Productivity"
+  },
+
+  {
+    "id": 29,
+    "slug": "zapier-ai",
+    "name": "Zapier AI",
+    "pricing": "Freemium",
+    "description": "Zapier integrates AI into workflow automations, allowing users to build automated systems using AI triggers and actions across thousands of apps.",
+    "link": "https://zapier.com/ai",
+    "tags": ["automation", "workflows"],
+    "logo": "https://via.placeholder.com/128?text=ZapierAI",
+    "category": "Automation"
+  },
+
+  {
+    "id": 30,
+    "slug": "descript",
+    "name": "Descript",
+    "pricing": "Freemium",
+    "description": "Descript is an AI-powered video editing platform with auto-captions, overdub voice cloning, and timeline-free editing for faster production.",
+    "link": "https://descript.com",
+    "tags": ["video", "audio", "editing"],
+    "logo": "https://via.placeholder.com/128?text=Descript",
+    "category": "Video"
+  },
+
+  {
+    "id": 31,
+    "slug": "loom-ai",
+    "name": "Loom AI",
+    "pricing": "Freemium",
+    "description": "Loom offers AI-enhanced screen recordings with noise reduction, auto-highlights, and transcription to improve team communication.",
+    "link": "https://loom.com",
+    "tags": ["video", "screen-recording"],
+    "logo": "https://via.placeholder.com/128?text=Loom",
+    "category": "Video"
+  },
+
+  {
+    "id": 32,
+    "slug": "fliki",
+    "name": "Fliki",
+    "pricing": "Freemium",
+    "description": "Fliki helps convert text and blog posts into high-quality videos using AI voices and stock footage. Ideal for YouTube creators.",
+    "link": "https://fliki.ai",
+    "tags": ["video", "tts"],
+    "logo": "https://via.placeholder.com/128?text=Fliki",
+    "category": "Video"
+  },
+
+  {
+    "id": 33,
+    "slug": "durable-ai",
+    "name": "Durable AI",
+    "pricing": "Freemium",
+    "description": "Durable builds complete websites with AI in seconds using SEO-friendly and customizable templates for small businesses.",
+    "link": "https://durable.co",
+    "tags": ["website-builder", "automation"],
+    "logo": "https://via.placeholder.com/128?text=Durable",
+    "category": "Website"
+  },
+
+  {
+    "id": 34,
+    "slug": "wix-ai",
+    "name": "Wix AI Builder",
+    "pricing": "Freemium",
+    "description": "Wix AI creates websites automatically based on user inputs, offering beautiful layouts and built-in business tools.",
+    "link": "https://wix.com",
+    "tags": ["website", "builder"],
+    "logo": "https://via.placeholder.com/128?text=WixAI",
+    "category": "Website"
+  },
+
+  {
+    "id": 35,
+    "slug": "tutorai",
+    "name": "TutorAI",
+    "pricing": "Freemium",
+    "description": "TutorAI is an AI learning assistant that creates personalized lessons on any topic.",
+    "link": "https://tutorai.me",
+    "tags": ["education", "learning"],
+    "logo": "https://via.placeholder.com/128?text=TutorAI",
+    "category": "Education"
+  },
+
+  {
+    "id": 36,
+    "slug": "huggingface",
+    "name": "HuggingFace",
+    "pricing": "Free",
+    "description": "HuggingFace provides thousands of AI models, datasets, and tools for developers to build machine learning applications easily.",
+    "link": "https://huggingface.co",
+    "tags": ["developer", "ai-models"],
+    "logo": "https://via.placeholder.com/128?text=HF",
+    "category": "Developer"
+  },
+
+  {
+    "id": 37,
+    "slug": "replicate",
+    "name": "Replicate",
+    "pricing": "Freemium",
+    "description": "Replicate lets developers run open-source AI models on the cloud with simple APIs for image, video, and text generation.",
+    "link": "https://replicate.com",
+    "tags": ["developer", "api"],
+    "logo": "https://via.placeholder.com/128?text=Replicate",
+    "category": "Developer"
+  },
+
+  {
+    "id": 38,
+    "slug": "glasp",
+    "name": "Glasp AI",
+    "pricing": "Free",
+    "description": "Glasp is an AI-powered knowledge and research tool that helps users highlight, save, annotate, and summarize any webpage.",
+    "link": "https://glasp.co",
+    "tags": ["research", "summarizer"],
+    "logo": "https://via.placeholder.com/128?text=Glasp",
+    "category": "Productivity"
+  },
+
+  {
+    "id": 39,
+    "slug": "soundraw",
+    "name": "Soundraw",
+    "pricing": "Freemium",
+    "description": "Soundraw uses AI to generate royalty-free music that matches mood, tempo, and scene style, helping creators with background tracks.",
+    "link": "https://soundraw.io",
+    "tags": ["music", "audio", "creation"],
+    "logo": "https://via.placeholder.com/128?text=Soundraw",
+    "category": "Audio"
+  },
+
+  {
+    "id": 40,
+    "slug": "play-ht",
+    "name": "PlayHT",
+    "pricing": "Freemium",
+    "description": "PlayHT provides studio-quality AI voice generation and ultra-realistic text-to-speech models suitable for podcasts and videos.",
+    "link": "https://play.ht",
+    "tags": ["tts", "voice"],
+    "logo": "https://via.placeholder.com/128?text=PlayHT",
+    "category": "Audio"
+  },
+
+  {
+    "id": 41,
+    "slug": "voicemod",
+    "name": "Voicemod",
+    "pricing": "Freemium",
+    "description": "Voicemod lets users transform and modify their voice using real-time AI voice-changing effects for gaming and streaming.",
+    "link": "https://voicemod.net",
+    "tags": ["voice", "audio", "fun"],
+    "logo": "https://via.placeholder.com/128?text=Voicemod",
+    "category": "Audio"
+  },
+
+  {
+    "id": 42,
+    "slug": "scribe-summary",
+    "name": "Smodin",
+    "pricing": "Freemium",
+    "description": "Smodin offers AI-powered writing tools such as summarizers, paraphrasers, essay writers, and homework solutions.",
+    "link": "https://smodin.io",
+    "tags": ["writing", "education"],
+    "logo": "https://via.placeholder.com/128?text=Smodin",
+    "category": "Writing"
+  },
+
+  {
+    "id": 43,
+    "slug": "writesonic",
+    "name": "Writesonic",
+    "pricing": "Freemium",
+    "description": "Writesonic generates blogs, ads, ecommerce product descriptions, and SEO content using advanced AI writing models.",
+    "link": "https://writesonic.com",
+    "tags": ["writing", "seo"],
+    "logo": "https://via.placeholder.com/128?text=WS",
+    "category": "Writing"
+  },
+
+  {
+    "id": 44,
+    "slug": "perplexity",
+    "name": "Perplexity AI",
+    "pricing": "Free",
+    "description": "Perplexity AI provides accurate, sourced answers with real-time internet search capability and a highly factual AI chatbot.",
+    "link": "https://perplexity.ai",
+    "tags": ["search", "chat"],
+    "logo": "https://via.placeholder.com/128?text=PX",
+    "category": "Search"
+  },
+
+  {
+    "id": 45,
+    "slug": "microsoft-designer",
+    "name": "Microsoft Designer",
+    "pricing": "Freemium",
+    "description": "Microsoft Designer helps users create high-quality designs and marketing content using AI-powered templates and smart layout tools.",
+    "link": "https://designer.microsoft.com",
+    "tags": ["design", "marketing"],
+    "logo": "https://via.placeholder.com/128?text=Designer",
+    "category": "Design"
+  },
+
+  {
+    "id": 46,
+    "slug": "ideogram",
+    "name": "Ideogram",
+    "pricing": "Free",
+    "description": "Ideogram is an AI image generator known for producing images with perfect typography, making it ideal for posters and ads.",
+    "link": "https://ideogram.ai",
+    "tags": ["image-generation", "text"],
+    "logo": "https://via.placeholder.com/128?text=Ideogram",
+    "category": "Image"
+  },
+
+  {
+    "id": 47,
+    "slug": "snipd",
+    "name": "Snipd",
+    "pricing": "Freemium",
+    "description": "Snipd is an AI podcast tool that extracts meaningful highlights, creates summaries, and organizes insights for productivity.",
+    "link": "https://snipd.com",
+    "tags": ["podcasts", "summaries"],
+    "logo": "https://via.placeholder.com/128?text=Snipd",
+    "category": "Audio"
+  },
+
+  {
+    "id": 48,
+    "slug": "lumen5",
+    "name": "Lumen5",
+    "pricing": "Freemium",
+    "description": "Lumen5 converts blog posts into videos using AI narration, transitions, and templates, making video creation simple for marketers.",
+    "link": "https://lumen5.com",
+    "tags": ["video", "marketing"],
+    "logo": "https://via.placeholder.com/128?text=Lumen5",
+    "category": "Video"
+  },
+
+  {
+    "id": 49,
+    "slug": "invideo-ai",
+    "name": "InVideo AI",
+    "pricing": "Freemium",
+    "description": "InVideo AI turns text prompts into complete videos with scenes, transitions, and generated voiceovers in minutes.",
+    "link": "https://invideo.io",
+    "tags": ["video", "tts"],
+    "logo": "https://via.placeholder.com/128?text=InVideo",
+    "category": "Video"
+  },
+
+  {
+    "id": 50,
+    "slug": "tavs-ai",
+    "name": "Tavus",
+    "pricing": "Freemium",
+    "description": "Tavus AI enables personalized video generation at scale, allowing creators to make thousands of unique videos using one recording.",
+    "link": "https://tavus.io",
+    "tags": ["video", "personalization"],
+    "logo": "https://via.placeholder.com/128?text=Tavus",
+    "category": "Video"
+  }
+]

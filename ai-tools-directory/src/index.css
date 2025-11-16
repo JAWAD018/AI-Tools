@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* small helpers */
+:root{
+  --primary: #0ea5a4;
+  --accent: #e6684f;
+}
+html,body,#root { height: 100%; }
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: linear-gradient(180deg,#f7f9f9 0%, #ffffff 60%);
+  color: #0f172a;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* small card helper so "borders" look subtle */
+.card {
+  @apply bg-white rounded-2xl shadow-md p-6 border border-gray-100;
+}
