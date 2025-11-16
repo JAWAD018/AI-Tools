@@ -1,24 +1,89 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="/icons/favicon-48.png">
-<link rel="icon" type="image/png" sizes="64x64" href="/icons/favicon-64.png">
-<link rel="icon" type="image/png" sizes="128x128" href="/icons/favicon-128.png">
-<link rel="icon" type="image/png" sizes="180x180" href="/icons/favicon-180.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/icons/favicon-192.png">
-<link rel="icon" type="image/png" sizes="256x256" href="/icons/favicon-256.png">
-<link rel="icon" type="image/png" sizes="512x512" href="/icons/favicon-512.png">
-<link rel="shortcut icon" href="/icons/favicon.ico">
-<meta name="theme-color" content="#000000">
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>AI Tools Directory — Test</title>
-  </head>
+  <!-- Primary SEO -->
+  <title>AI Tools Directory — Curated list of the best AI tools (searchable, updated)</title>
+  <meta name="description" content="AI Tools Directory — a curated, searchable catalog of the best AI tools for image generation, writing, video, audio, development and productivity. Discover free, freemium and paid tools with tags, categories and short reviews." />
+  <meta name="keywords" content="AI tools directory, best AI tools, free AI tools, AI tools 2025, AI image generators, AI writing tools, AI video tools" />
+  <meta name="author" content="AI Tools Directory" />
+  <link rel="canonical" href="https://ai-toolsdir.vercel.app/" />
+
+  <!-- Crawling & indexing -->
+  <meta name="robots" content="index,follow,max-snippet:200,max-image-preview:large">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  <meta name="google-site-verification" content="qHQLyL7WriiBUHr0RdE54fk0BvUh_7P7ERFqJdOhpG0" />
+
+  <!-- Favicons / Manifest -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/favicon-180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/icons/favicon-192.png" color="#000000">
+  <link rel="shortcut icon" href="/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Social (Open Graph + Twitter) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AI Tools Directory — Curated list of the best AI tools" />
+  <meta property="og:description" content="Discover the best AI tools: image, video, audio, writing, and dev tools — searchable catalog with tags, categories, and short reviews." />
+  <meta property="og:url" content="https://ai-toolsdir.vercel.app/" />
+  <meta property="og:site_name" content="AI Tools Directory" />
+  <meta property="og:image" content="https://ai-toolsdir.vercel.app/social-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI Tools Directory — Curated list of the best AI tools" />
+  <meta name="twitter:description" content="Discover the best AI tools: image, video, audio, writing, and dev tools — searchable catalog with tags, categories, and short reviews." />
+  <meta name="twitter:image" content="https://ai-toolsdir.vercel.app/social-card.png" />
+
+  <!-- Preconnect / preload -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://ai-toolsdir.vercel.app/#website",
+        "url": "https://ai-toolsdir.vercel.app/",
+        "name": "AI Tools Directory",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://ai-toolsdir.vercel.app/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "name": "AI Tools Directory",
+        "url": "https://ai-toolsdir.vercel.app/",
+        "logo": "https://ai-toolsdir.vercel.app/icons/favicon-192.png"
+      }
+    ]
+  }
+  </script>
+</head>
+
   <body>
     <div id="root"></div>
+     <nav aria-label="Categories" style="max-width:1100px; margin:18px auto; padding:0 16px;">
+      <ul style="display:flex; flex-wrap:wrap; gap:8px; list-style:none; padding:0; margin:0;">
+        <li><a href="/category/image" rel="prefetch">Image AI tools</a></li>
+        <li><a href="/category/video" rel="prefetch">Video AI tools</a></li>
+        <li><a href="/category/audio" rel="prefetch">Audio AI tools</a></li>
+        <li><a href="/category/writing" rel="prefetch">Writing & copy AI tools</a></li>
+        <li><a href="/category/dev" rel="prefetch">Developer & API tools</a></li>
+        <li><a href="/category/productivity" rel="prefetch">Productivity AI tools</a></li>
+      </ul>
+    </nav>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
