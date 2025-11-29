@@ -1,11 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ai-toolsdir.vercel.app/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://ai-toolsdir.vercel.app/category/image</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-toolsdir.vercel.app/category/video</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-toolsdir.vercel.app/category/audio</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-toolsdir.vercel.app/category/writing</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-toolsdir.vercel.app/category/dev</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-toolsdir.vercel.app/category/productivity</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <!-- Add /tools/<slug> URLs here or auto-generate them -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://ai-toolsdir.vercel.app/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Tool pages generated from tools.json -->
+  <url><loc>https://ai-toolsdir.vercel.app/tools/chatgpt</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/google-gemini</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/claude-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/midjourney</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/leonardo-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/runway-ml</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/pika-labs</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/canva-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/adobe-firefly</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/deepai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/remove-bg</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/cleanup-pictures</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/krisp-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/tome-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/copy-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/jasper-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/grammarly</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/quillbot</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/otter-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/pexels-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/character-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/murf-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/heygen</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/udacity-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/coursera-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/microsoft-copilot</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/notion-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/scribe-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/zapier-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/descript</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/loom-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/fliki</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/durable-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/wix-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/tutorai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/huggingface</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/replicate</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/glasp</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/soundraw</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/play-ht</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/voicemod</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/scribe-summary</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/writesonic</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/perplexity</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/microsoft-designer</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/ideogram</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/snipd</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/lumen5</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/invideo-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/tavs-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/synthesia</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/elevenlabs</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/deepl</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/riffusion</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/opic</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/fathom</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/notable</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/replit</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/tabnine</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/codeium</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/langchain</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/llamaindex</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/pinecone</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/weaviate</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/chroma</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/milvus</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/vectara</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/cohere</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/mistral-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/aleph-alpha</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/inflection-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/notion-research</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/perplexity</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/notable-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/synthesys</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/runway-ml-advanced</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/heygen-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/lumen5-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/crayon</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/gumloop</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/surfer-seo</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/originality-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/writer</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/anyword</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/notion-templates-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/glide-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/durable-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/phi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/zapier-agents</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/n8n</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/ui-path</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/monday-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/slack-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/noted</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/snipd-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/soundraw-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/playht-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/descript-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/invideo-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/runpod</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/ludwig</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/paperspace</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/huggingface-hub</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/replicate-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/assemblyai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/deepgram</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/mondrian</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/midjourney-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/leonardo-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/ideogram-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/lexica</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/artbreeder</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/playground-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/replicate-stable</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/clipdrop</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/removebg-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/cleanup-pictures-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/crayon-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/adobe-firefly-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/synthesys-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/chatsonic</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/perplexity-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/notion-ai-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/glasp-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/scalenut</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/surferseo-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/brandmark</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/copydotai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/jasper-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/grammarly-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/quillbot-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/wordtune</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/originalityai-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/undetectableai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/huggingface-spaces</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/notable-3</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/rumble-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/lovo-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/play.ht-3</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/podcastle</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url><loc>https://ai-toolsdir.vercel.app/tools/tavus-2</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/vidyo-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/synth-videos</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/resemble-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/ludus</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/copydesk</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/notion-3</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/marketplace-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/notion-4</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-toolsdir.vercel.app/tools/hidden-gem-ai</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
 </urlset>
